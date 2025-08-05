@@ -33,9 +33,9 @@ JApi = JabApi.new()
 
 # Properties
 
-| Property | Type | Description |
-| -------- | ---- | ----------- |
-| `FakeRigTransparency` | number | The transparency of the fake rig |
+| Property | Type | Description | Default |
+| -------- | ---- | ----------- | ------- |
+| `FakeRigTransparency` | number | The transparency of the fake rig | 1 |
 
 # Methods
 
