@@ -35,7 +35,7 @@ JApi = JabApi.new()
 
 | Property | Type | Description |
 | -------- | ---- | ----------- |
-| `FakeRigTransparency` | number | The transparency of the fake rig. |
+| `FakeRigTransparency` | number | The transparency of the fake rig |
 
 # Methods
 
@@ -43,4 +43,4 @@ JApi = JabApi.new()
 | ------ | ----------- |
 | `Reset(): ()` | Resets the player's character |
 | `GetFakeRig(): (FakeRig: any)` | Returns the player's fake rig, else returns nil |
-| `CreateFakeRig(): (FakeRig: Model)` | Creates a fake rig with the current `FakeRigTransparency` |
+| `CreateFakeRig(): (FakeRig: Model)` | Creates a fake rig with the current `FakeRigTransparency` and sets the player's character to it (this will disable default animations) |
